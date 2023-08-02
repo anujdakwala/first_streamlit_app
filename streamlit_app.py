@@ -17,6 +17,8 @@ streamlit.header("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
 
+my_cur.execute("insert into FRUIT_LOAD_LIST values ('from streamlit')")
+
 
 
 streamlit.header('Breakfast Menu')
